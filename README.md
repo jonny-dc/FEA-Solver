@@ -4,7 +4,7 @@ Simple static structural finite element method implementation in MATLAB
 This program runs the finite element method for static structural applications, finding the displacements, stresses, and strains in a given geometry when subjected to known forces and boundary conditions. At the moment the FEA solver is limited to 2D beam elements and 2D plane strain elements, but it is intended to change this in the future. 
 
 This program runs off a provided input file, which specifies the geometry (in the form of nodes and element definitions), forces, and boundary conditions in the problem. The input file syntax is detailed below, but is largely self-explanatory. 
-Input file syntax should be as follows (with comments preceded by !):
+Input file syntax should be as follows (with comments preceded by !):\\
 **nodes
 1 0.0 0.0 !(node number, x-coordinate, y-coordinate)
 2 0.0 1.0
